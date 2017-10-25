@@ -39,6 +39,9 @@ public class CustomSOLDriver {
 		list.collapse();
 		System.out.print("TEST 5: PrettyStr() on an empty Directory. Expected: {Me, Some, Body, Once, Told}. Actual: ");
 		System.out.println(list.prettyStr());
+                list.reverse();
+                System.out.print("TEST 5: PrettyStr() on an empty Directory. Expected: {Told, Once, Body, Some, Me}. Actual: ");
+                System.out.println(list.prettyStr());
 	}
 
 }
